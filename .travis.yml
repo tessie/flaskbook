@@ -16,7 +16,7 @@ install:
 before_script:
    flake8 .
 
-script: pytest
+script: py.test
 
 branches:
   only:
